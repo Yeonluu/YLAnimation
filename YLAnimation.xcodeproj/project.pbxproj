@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BB36979B2248C31400C94E6F /* YLKeyframeAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36979A2248C31400C94E6F /* YLKeyframeAnimationViewController.swift */; };
+		BB5F9362229E336E007A391D /* YLTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F9361229E336E007A391D /* YLTransitionViewController.swift */; };
+		BB5F9364229E6791007A391D /* YLAnimationGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F9363229E6791007A391D /* YLAnimationGroupViewController.swift */; };
+		BB5F9366229E67A8007A391D /* YLOtherAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F9365229E67A8007A391D /* YLOtherAnimationViewController.swift */; };
 		BB78ED182238227A002B7F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB78ED172238227A002B7F39 /* AppDelegate.swift */; };
 		BB78ED1A2238227A002B7F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB78ED192238227A002B7F39 /* ViewController.swift */; };
 		BB78ED1D2238227A002B7F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB78ED1B2238227A002B7F39 /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		BB36979A2248C31400C94E6F /* YLKeyframeAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLKeyframeAnimationViewController.swift; sourceTree = "<group>"; };
+		BB5F9361229E336E007A391D /* YLTransitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLTransitionViewController.swift; sourceTree = "<group>"; };
+		BB5F9363229E6791007A391D /* YLAnimationGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLAnimationGroupViewController.swift; sourceTree = "<group>"; };
+		BB5F9365229E67A8007A391D /* YLOtherAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YLOtherAnimationViewController.swift; sourceTree = "<group>"; };
 		BB78ED142238227A002B7F39 /* YLAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB78ED172238227A002B7F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB78ED192238227A002B7F39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +71,9 @@
 				BBFD9D07223CDF34000159A1 /* YLBaseViewController.swift */,
 				BB78ED5722392023002B7F39 /* YLBasicAnimationViewController.swift */,
 				BB36979A2248C31400C94E6F /* YLKeyframeAnimationViewController.swift */,
+				BB5F9361229E336E007A391D /* YLTransitionViewController.swift */,
+				BB5F9363229E6791007A391D /* YLAnimationGroupViewController.swift */,
+				BB5F9365229E67A8007A391D /* YLOtherAnimationViewController.swift */,
 				BB78ED1B2238227A002B7F39 /* Main.storyboard */,
 				BB78ED1E2238227B002B7F39 /* Assets.xcassets */,
 				BB78ED202238227B002B7F39 /* LaunchScreen.storyboard */,
@@ -144,9 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5F9362229E336E007A391D /* YLTransitionViewController.swift in Sources */,
 				BB36979B2248C31400C94E6F /* YLKeyframeAnimationViewController.swift in Sources */,
+				BB5F9364229E6791007A391D /* YLAnimationGroupViewController.swift in Sources */,
 				BB78ED1A2238227A002B7F39 /* ViewController.swift in Sources */,
 				BB78ED182238227A002B7F39 /* AppDelegate.swift in Sources */,
+				BB5F9366229E67A8007A391D /* YLOtherAnimationViewController.swift in Sources */,
 				BBFD9D08223CDF34000159A1 /* YLBaseViewController.swift in Sources */,
 				BB78ED9722392023002B7F39 /* YLBasicAnimationViewController.swift in Sources */,
 			);
