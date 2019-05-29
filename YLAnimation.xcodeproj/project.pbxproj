@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB36979B2248C31400C94E6F /* YLKeyframeAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36979A2248C31400C94E6F /* YLKeyframeAnimationViewController.swift */; };
 		BB78ED182238227A002B7F39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB78ED172238227A002B7F39 /* AppDelegate.swift */; };
 		BB78ED1A2238227A002B7F39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB78ED192238227A002B7F39 /* ViewController.swift */; };
 		BB78ED1D2238227A002B7F39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB78ED1B2238227A002B7F39 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB36979A2248C31400C94E6F /* YLKeyframeAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLKeyframeAnimationViewController.swift; sourceTree = "<group>"; };
 		BB78ED142238227A002B7F39 /* YLAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB78ED172238227A002B7F39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB78ED192238227A002B7F39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,10 +60,11 @@
 		BB78ED162238227A002B7F39 /* YLAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				BBFD9D07223CDF34000159A1 /* YLBaseViewController.swift */,
-				BB78ED5722392023002B7F39 /* YLBasicAnimationViewController.swift */,
 				BB78ED172238227A002B7F39 /* AppDelegate.swift */,
 				BB78ED192238227A002B7F39 /* ViewController.swift */,
+				BBFD9D07223CDF34000159A1 /* YLBaseViewController.swift */,
+				BB78ED5722392023002B7F39 /* YLBasicAnimationViewController.swift */,
+				BB36979A2248C31400C94E6F /* YLKeyframeAnimationViewController.swift */,
 				BB78ED1B2238227A002B7F39 /* Main.storyboard */,
 				BB78ED1E2238227B002B7F39 /* Assets.xcassets */,
 				BB78ED202238227B002B7F39 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB36979B2248C31400C94E6F /* YLKeyframeAnimationViewController.swift in Sources */,
 				BB78ED1A2238227A002B7F39 /* ViewController.swift in Sources */,
 				BB78ED182238227A002B7F39 /* AppDelegate.swift in Sources */,
 				BBFD9D08223CDF34000159A1 /* YLBaseViewController.swift in Sources */,
